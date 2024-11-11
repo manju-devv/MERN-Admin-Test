@@ -1,0 +1,110 @@
+.containerr {
+  max-width: 90vw;
+  height: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img{
+  width: 100px;
+  display: flex;
+  margin-left: 3%;
+  margin-top: 30px;
+  margin-bottom: -40px;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.nav .nav-buttons button {
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+.butt{
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+}
+.butt button{
+  margin-right: 30px;
+  width: 150px;
+  background-color: #dc3545;
+}
+.butt button:hover{
+  background-color: #c82333;
+}
+.butt span{
+  margin-right: -30px;
+  margin-top: 5px;
+}
+.nav-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  text-align: center;
+}
+
+
+.extra{
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-top: -50px;
+}
+.count{
+  margin-top: 6px;
+}
+/* .content ul li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+} */
+
+.ul{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1.5fr 1fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  font-size: 13px;
+}
+
+.ul .gmi{
+  margin-bottom: 12px;
+}
+
+.butt span{
+  width: 100%;
+}
+
+.cursor{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+}
+.cursor:hover{
+  color: red;
+  text-shadow: 1px 1px 2px red;
+}

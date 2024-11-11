@@ -1,0 +1,94 @@
+
+.cont {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imgg{
+  width: 100px;
+  display: flex;
+  margin-left: 35%;
+  margin-top: 30px;
+  margin-bottom: -40px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+input[type="text"],
+input[type="password"],
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button.submit{
+  margin-left: 30%;
+  width: 65%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+button[type="button"] {
+  background: none;
+  color: #007bff;
+  text-decoration: underline;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  color: #0056b3;
+}
+
+.sig{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sig p{
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 2px;
+}
+
+.signup{
+  margin-left: 10px;
+  width: 20%;
+}

@@ -1,0 +1,92 @@
+
+.contain {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+/* img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: auto;
+} */
+
+.img{
+  width: 100px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: -40px;
+  margin-left: 35%;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+label {
+  width: 100px; 
+  font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60%;
+  margin-left: 30%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login p{
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 2px;
+}
+.log{
+  margin-left: 10px;
+  width: 20%;
+}

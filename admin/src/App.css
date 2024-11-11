@@ -1,0 +1,22 @@
+
+.Toastify__toast-icon {
+  width: auto; 
+  height: 20px; 
+}
+
+
+.toast-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #aaa; 
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+
+.toast-close-btn:hover {
+  background-color: white;
+  color: #f00; 
+}
